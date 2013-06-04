@@ -1,0 +1,16 @@
+#ifndef MESSAGEENUM_H
+#define MESSAGEENUM_H
+
+namespace Message {
+enum MessageType {
+    SELF_LOCATION = 1,
+    NOT_SELF_LOCATION,
+    TEXT_CONVERSATION,
+    PICTURE_TRANSPORTATION,
+    HOP_TYPE,
+    BANDWIDTH_TEST_RESULT,
+    RTT_TEST_RESULT
+};
+}
+
+#endif // MESSAGEENUM_H
